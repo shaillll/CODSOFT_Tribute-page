@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tribute to Dr. A.P.J. Abdul Kalam</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      background: #cca3ed;
+      color: #333;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 850px;
+      margin: auto;
+      background: white;
+      border-radius: 20px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+      padding: 30px;
+      animation: fadeIn 1s ease;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      color: #470675;
+    }
+
+    .tagline {
+      font-size: 1rem;
+      color: #9e5ef5;
+      margin-top: 10px;
+      height: 1.5em;
+      white-space: nowrap;
+      overflow: hidden;
+      border-right: 2px solid #9e5ef5;
+      width: 0;
+      animation: typing 4s steps(40, end) forwards, blink 0.8s step-end infinite;
+    }
+
+    @keyframes typing {
+      from { width: 0; }
+      to { width: 100%; }
+    }
+
+    @keyframes blink {
+      from, to { border-color: transparent; }
+      50% { border-color: #9e5ef5; }
+    }
+
+    .image-section {
+      text-align: center;
+      margin: 20px 0;
+    }
+
+    .image-section img {
+      width: 500px;
+      border-radius: 700px;
+      border: 10px solid #d3b5ff;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .content h2 {
+      margin-top: 20px;
+      color: #8030c9;
+    }
+
+    .content p, .content ul {
+      font-size: 1.1rem;
+      margin-top: 10px;
+      line-height: 1.6;
+    }
+
+    .content ul {
+      padding-left: 20px;
+    }
+
+    .content li {
+      margin: 8px 0;
+    }
+
+    blockquote {
+      margin-top: 30px;
+      padding: 15px 20px;
+      background: #ece4ff;
+      border-left: 5px solid #a162f7;
+      font-style: italic;
+      color: #4a0078;
+    }
+
+    .timeline {
+      margin-top: 30px;
+      border-left: 4px solid #d1aaff;
+      padding-left: 20px;
+    }
+
+    .timeline-item {
+      margin-bottom: 25px;
+    }
+
+    .timeline-item h4 {
+      color: #6a1b9a;
+      font-size: 1.1rem;
+    }
+
+    .timeline-item p {
+      margin-top: 5px;
+      font-size: 0.95rem;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      color: #888;
+      font-size: 0.9rem;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Dr. A.P.J. Abdul Kalam</h1>
+      <p class="tagline" id="tagline">Missile Man of India | Bharat Ratna | Visionary Leader</p>
+    </header>
+
+    <section class="image-section">
+      <img src="https://cdnb.artstation.com/p/assets/images/images/020/366/189/large/jeeva-artist-09isro.jpg?1567513033" alt="Dr. A.P.J. Abdul Kalam" />
+    </section>
+
+    <section class="content">
+      <h2>🌟 About Dr. Kalam</h2>
+      <p>
+        Dr. Avul Pakir Jainulabdeen Abdul Kalam (1931–2015) was an eminent Indian scientist and statesman who served as the 11th President of India from 2002 to 2007. Known as the "Missile Man of India" for his pivotal role in India's missile development programs, Dr. Kalam dedicated his life to the progress of science, technology, and education in India.
+      </p>
+      <p>
+        He began his career at DRDO and later joined ISRO, where he was a key figure in the successful launch of India’s first satellite launch vehicle, SLV-III. His leadership in the development of ballistic missiles like Agni and Prithvi made India a recognized defense power. He was instrumental in the Pokhran-II nuclear tests in 1998, which affirmed India’s nuclear status.
+      </p>
+      <p>
+        As President, he was widely loved and respected, especially by the youth. Even after his presidency, Dr. Kalam continued to engage with students, share knowledge, and encourage innovation. His vision for India as a developed nation by 2020 inspired generations. He authored several books including <em>Wings of Fire</em>, <em>Ignited Minds</em>, and <em>India 2020</em>.
+      </p>
+
+      <h2>In His Contributions</h2>
+      <ul>
+        <li>Key figure in India's civilian and military space programs</li>
+        <li>Directed development of India's first SLV and missile systems</li>
+        <li>Chief Scientific Adviser to the Government of India (1992–1999)</li>
+        <li>President of India from 2002 to 2007</li>
+        <li>Advocate for education, innovation, and national development</li>
+        <li>Author of motivational and scientific books</li>
+      </ul>
+
+      <blockquote id="quote">"Dream, dream, dream. Dreams transform into thoughts and thoughts result in action." – Dr. A.P.J. Abdul Kalam</blockquote>
+
+      <h2>🕰️ Timeline of Life Events</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <h4>1931</h4>
+          <p>Born in Rameswaram, Tamil Nadu in a humble Muslim family.</p>
+        </div>
+        <div class="timeline-item">
+          <h4>1960</h4>
+          <p>Graduated in aerospace engineering from Madras Institute of Technology.</p>
+        </div>
+        <div class="timeline-item">
+          <h4>1980</h4>
+          <p>Directed the successful launch of India’s first indigenous SLV-III.</p>
+        </div>
+        <div class="timeline-item">
+          <h4>1998</h4>
+          <p>Played a vital role in Pokhran-II nuclear tests, strengthening national defense.</p>
+        </div>
+        <div class="timeline-item">
+          <h4>2002</h4>
+          <p>Elected as the 11th President of India with overwhelming public support.</p>
+        </div>
+        <div class="timeline-item">
+          <h4>2007</h4>
+          <p>Completed term as President and returned to education and writing.</p>
+        </div>
+        <div class="timeline-item">
+          <h4>2015</h4>
+          <p>Passed away while delivering a lecture at IIM Shillong — died doing what he loved.</p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>Made with ❤️ to honor the People's President — Dr. A.P.J. Abdul Kalam</p>
+    </footer>
+  </div>
+
+  <script>
+    const quotes = [
+      '"Dream, dream, dream. Dreams transform into thoughts and thoughts result in action."',
+      '"You have to dream before your dreams can come true."',
+      '"If you want to shine like a sun, first burn like a sun."',
+      '"Excellence happens not by accident. It is a process."',
+      '"Thinking is the capital, enterprise is the way, hard work is the solution."'
+    ];
+
+    const quoteElement = document.getElementById("quote");
+    let currentQuote = 0;
+
+    setInterval(() => {
+      currentQuote = (currentQuote + 1) % quotes.length;
+      quoteElement.textContent = quotes[currentQuote] + " – Dr. A.P.J. Abdul Kalam";
+    }, 6000);
+  </script>
+</body>
+</html>
